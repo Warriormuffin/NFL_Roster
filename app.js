@@ -7,7 +7,7 @@ function Player(name,position,jersey){
     this.jersey= jersey;
 }
 
-$('form-group').on('submit', function(e){
+$('form').on('submit', function(e){
   e.preventDefault();
   var form = this;
   var newPlayer = new Player(form.playerName.value, form.playerPosition.value, form.playerJersey.value)
@@ -20,7 +20,7 @@ function update(list){
   var usersElem = $('.player-roster');
   usersElem.empty()
   for(var i = 0; i < list.length; i++){
-    usersElem.prepend('<div class="player-card"><h3>'+list[i].name+'<br>'+list[i].position+'<br>'+list[i].jersey+'</h3></div>' )  
+    usersElem.prepend('<div class="player-card"><h3>' +  '<img id="theImg" src="http://s.nflcdn.com/static/content/public/image/fantasy/transparent/200x200/" />'+ '<br>' +list[i].name+'<br>'+list[i].position+'<br>'+list[i].jersey+'</h3></div>')  
   }
 }
 function playerID(){
