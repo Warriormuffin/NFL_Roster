@@ -28,9 +28,9 @@ function playerID(){
 }
 $('.player-roster').on('click', '.player-card', function(){
   var player = $(this).text()
-  console.log(this)
-  // removePlayerByCard(player);
-  // update(players)
+  
+  removePlayerByCard(player);
+  update(players)
 })
  
 function removePlayerByCard(name){

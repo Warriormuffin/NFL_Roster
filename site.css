@@ -4,12 +4,20 @@
     text-align: center;
 }
 
-.player-form{
-    margin-top: 80px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
 .form-group{
     text-align: center;
     
 }
+
+
+
+.buttonHolder{
+    text-align:  center;
+}
+
+.panel-heading{
+    text-align: center;
+}
+
+
