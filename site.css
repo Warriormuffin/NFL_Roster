@@ -2,6 +2,7 @@
     display: inline-block;
     border: solid black 1px;
     text-align: center;
+    margin-left: 20px;
 }
 
 
@@ -16,8 +17,13 @@
     text-align:  center;
 }
 
-.panel-heading{
-    text-align: center;
+
+
+.panel-default > .panel-heading {
+text-align: center;
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
 }
 
 

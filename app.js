@@ -38,7 +38,7 @@ function removePlayerByCard(name){
   for (var i = 0; i < players.length; i++) {
     var currentPlayer = players[i];
     var a =  (currentPlayer.name + currentPlayer.position + currentPlayer.jersey)
-    // console.log(name)
+    
     
     if(a == name){
       return players.splice(i,1)
